@@ -40,5 +40,15 @@ public class Country
         public void setCountryFlag(int countryFlag) {
             this.countryFlag = countryFlag;
         }
+    @Override
+    public String toString()
+    {
+        return "Country{" +
+                "countryId=" + countryId +
+                ", countryName='" + countryName + '\'' +
+                ", countryFlag=" + countryFlag +
+                ", description='" + desc + '\'' +
+                '}';
+    }
     }
 
