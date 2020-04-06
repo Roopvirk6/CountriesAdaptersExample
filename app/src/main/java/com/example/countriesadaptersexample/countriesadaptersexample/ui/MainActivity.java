@@ -5,6 +5,8 @@ import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
+import android.widget.AdapterView;
+import android.widget.Toast;
 
 import com.example.countriesadaptersexample.R;
 import com.example.countriesadaptersexample.countriesadaptersexample.adapters.CountriesAdapter;
@@ -49,6 +51,7 @@ import java.util.ArrayList;
             country.add(new Country(14,"test","test12344",R.drawable.be));
             country.add(new Country(15,"test11111","test12344",R.drawable.bd));
         }
+
     }
 
 
